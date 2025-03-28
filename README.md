@@ -91,9 +91,7 @@ cd escriptorium
 Create and edit the environment file:
 
 ```bash
-cp .env.example .env
-# Edit the .env file with your preferred text editor
-nano .env
+cp variables.env_example variables.env  
 ```
 
 ### 3. Build and Start the Containers
