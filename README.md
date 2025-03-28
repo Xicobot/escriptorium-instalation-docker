@@ -2,6 +2,43 @@
 
 This document provides comprehensive instructions for installing, configuring, and maintaining eScriptorium using Docker.
 
+---
+# Introduction to eScriptorium
+
+eScriptorium is an open-source platform designed for the transcription, annotation, and analysis of historical manuscripts and documents. It combines powerful OCR (Optical Character Recognition) capabilities with collaborative editing features, making it an essential tool for digital humanities projects, archives, libraries, and scholarly research.
+
+## What is eScriptorium?
+
+eScriptorium provides a web-based environment where users can:
+
+- Upload digital images of historical documents
+- Apply advanced OCR using the Kraken engine, which is specially optimized for historical texts
+- Manually correct and annotate transcriptions
+- Train custom OCR models for specific document types or scripts
+- Collaborate with team members on transcription projects
+- Export results in various formats for further analysis
+
+## Key Features
+
+- **Specialized OCR**: Built on Kraken, which excels at recognizing historical scripts and layouts
+- **Training capabilities**: Create custom OCR models for your specific manuscript collections
+- **Annotation tools**: Mark up text with semantic tags and paleographic features
+- **Multi-user support**: Collaborate with team members on transcription projects
+- **Version control**: Track changes and maintain the history of transcriptions
+- **Flexible export**: Export your data in various formats (TEI, ALTO, plain text, etc.)
+
+## Why Use Docker?
+
+Deploying eScriptorium with Docker provides several advantages:
+
+1. **Simplified installation**: Avoid complex dependency management
+2. **Consistent environment**: Ensure the application works the same way across different systems
+3. **Isolation**: Keep the application and its dependencies separate from other system software
+4. **Scalability**: Easily scale specific components as needed
+5. **Easy updates**: Streamline the update process while preserving your data
+
+The Docker-based deployment allows you to get eScriptorium up and running quickly, even without extensive system administration experience.
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
